@@ -1,4 +1,4 @@
-var posts=["2023/10/24/hello-world/","2023/10/24/test2/","2023/10/24/test3/","2023/10/24/test1/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};var friend_link_list=[];
+var posts=["2023/12/10/hello-world - 副本/","2023/10/24/hello-world/","2023/12/10/test1 - 副本/","2023/10/24/test1/","2023/12/10/test2 - 副本/","2023/10/24/test2/","2023/12/10/test3 - 副本/","2023/10/24/test3/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};var friend_link_list=[];
     var refreshNum = 1;
     function friendChainRandomTransmission() {
       const randomIndex = Math.floor(Math.random() * friend_link_list.length);
